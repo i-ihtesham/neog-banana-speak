@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        textarea{
-            display: block;
-            width: 90%;
-            height: 10vh;
-            padding: 1.1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <textarea name="" placeholder="Enter ur text" id="text-input" cols="30" rows="10"></textarea>
-    <button id="btn-translate">Translate</button>
+    <header>
+        <h1>Banana Talk!</h1>
+    </header>
+    <div class="bg">
+        <div class="container">
+            <textarea name="" placeholder="Enter your text" id="text-input"></textarea>
+        </div>
+        <div class="container">
+            <button id="btn-translate">Translate</button>
+            <h2>Output will be displayed here</h2>
+            <div id="output"></div>       
+        </div>
+    
+        <footer>
+            <h3>About</h3>
+            <p class="container">Are you a minions fan? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana Language.</p>
+        </footer>
+    </div>
+    
+    
     <script src="app.js"></script>
 </body>
 </html>
