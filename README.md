@@ -1,0 +1,1 @@
+The app translates english text in to minion language.
